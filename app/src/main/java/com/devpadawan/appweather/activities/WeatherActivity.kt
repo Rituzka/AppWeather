@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.devpadawan.appweather.ApiWeather
+import com.devpadawan.appweather.service.ApiWeather
 import com.devpadawan.appweather.R
 import com.devpadawan.appweather.model.Meteorology
 import kotlinx.android.synthetic.main.activity_weather.*

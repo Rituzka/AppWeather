@@ -1,4 +1,4 @@
-package com.devpadawan.appweather
+package com.devpadawan.appweather.service
 
 import com.devpadawan.appweather.model.Meteorology
 import retrofit2.Call

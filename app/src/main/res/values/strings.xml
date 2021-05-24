@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">AppWeather</string>
     <string name="api_weather">Api weather</string>
+    <string name="fecha">Fecha</string>
+    <string name="date">Date</string>
+    <string name="temp">Temperature</string>
+    <string name="hum">Humidity</string>
 </resources>
