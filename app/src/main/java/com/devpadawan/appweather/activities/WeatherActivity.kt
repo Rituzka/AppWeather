@@ -42,11 +42,15 @@ class WeatherActivity : AppCompatActivity() {
                         Log.d("TAG response: ", res.main.temp)
                     }
                 }
+                if (response != null) {
+                    weather_recycler.adapter = WeatherAdapter(response.body().list)
+                }
             }
 
             override fun onFailure(call: Call<Meteorology>, t: Throwable?) {
                 Log.e("TAG failure: ", t.toString())
             }
+
         })
     }
 }
